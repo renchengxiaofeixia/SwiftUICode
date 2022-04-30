@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1572545C27F8780400E15761 /* SwiftUIGauge WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1572545B27F8780400E15761 /* SwiftUIGauge WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1572546127F8780500E15761 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1572546027F8780500E15761 /* Assets.xcassets */; };
+		1572546727F8780500E15761 /* SwiftUIGauge WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1572546627F8780500E15761 /* SwiftUIGauge WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1572546C27F8780500E15761 /* SwiftUIGaugeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1572546B27F8780500E15761 /* SwiftUIGaugeApp.swift */; };
+		1572546E27F8780500E15761 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1572546D27F8780500E15761 /* ContentView.swift */; };
+		1572547027F8780500E15761 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1572546F27F8780500E15761 /* NotificationController.swift */; };
+		1572547227F8780500E15761 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1572547127F8780500E15761 /* NotificationView.swift */; };
+		1572547427F8780500E15761 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1572547327F8780500E15761 /* ComplicationController.swift */; };
+		1572547627F8780500E15761 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1572547527F8780500E15761 /* Assets.xcassets */; };
+		1572547927F8780500E15761 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1572547827F8780500E15761 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1572545D27F8780400E15761 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1572545127F8780400E15761 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1572545A27F8780400E15761;
+			remoteInfo = "SwiftUIGauge WatchKit App";
+		};
+		1572546827F8780500E15761 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1572545127F8780400E15761 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1572546527F8780500E15761;
+			remoteInfo = "SwiftUIGauge WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1572548127F8780500E15761 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1572546727F8780500E15761 /* SwiftUIGauge WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1572548527F8780500E15761 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				1572545C27F8780400E15761 /* SwiftUIGauge WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1572545727F8780400E15761 /* SwiftUIGauge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIGauge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1572545B27F8780400E15761 /* SwiftUIGauge WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUIGauge WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1572546027F8780500E15761 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1572546627F8780500E15761 /* SwiftUIGauge WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SwiftUIGauge WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1572546B27F8780500E15761 /* SwiftUIGaugeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIGaugeApp.swift; sourceTree = "<group>"; };
+		1572546D27F8780500E15761 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1572546F27F8780500E15761 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		1572547127F8780500E15761 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		1572547327F8780500E15761 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		1572547527F8780500E15761 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1572547827F8780500E15761 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1572547A27F8780500E15761 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1572547B27F8780500E15761 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1572546327F8780500E15761 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1572545027F8780400E15761 = {
+			isa = PBXGroup;
+			children = (
+				1572545F27F8780400E15761 /* SwiftUIGauge WatchKit App */,
+				1572546A27F8780500E15761 /* SwiftUIGauge WatchKit Extension */,
+				1572545827F8780400E15761 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1572545827F8780400E15761 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1572545727F8780400E15761 /* SwiftUIGauge.app */,
+				1572545B27F8780400E15761 /* SwiftUIGauge WatchKit App.app */,
+				1572546627F8780500E15761 /* SwiftUIGauge WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1572545F27F8780400E15761 /* SwiftUIGauge WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				1572546027F8780500E15761 /* Assets.xcassets */,
+			);
+			path = "SwiftUIGauge WatchKit App";
+			sourceTree = "<group>";
+		};
+		1572546A27F8780500E15761 /* SwiftUIGauge WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1572546B27F8780500E15761 /* SwiftUIGaugeApp.swift */,
+				1572546D27F8780500E15761 /* ContentView.swift */,
+				1572546F27F8780500E15761 /* NotificationController.swift */,
+				1572547127F8780500E15761 /* NotificationView.swift */,
+				1572547327F8780500E15761 /* ComplicationController.swift */,
+				1572547527F8780500E15761 /* Assets.xcassets */,
+				1572547A27F8780500E15761 /* Info.plist */,
+				1572547B27F8780500E15761 /* PushNotificationPayload.apns */,
+				1572547727F8780500E15761 /* Preview Content */,
+			);
+			path = "SwiftUIGauge WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		1572547727F8780500E15761 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1572547827F8780500E15761 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1572545627F8780400E15761 /* SwiftUIGauge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1572548627F8780500E15761 /* Build configuration list for PBXNativeTarget "SwiftUIGauge" */;
+			buildPhases = (
+				1572545527F8780400E15761 /* Resources */,
+				1572548527F8780500E15761 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1572545E27F8780400E15761 /* PBXTargetDependency */,
+			);
+			name = SwiftUIGauge;
+			productName = SwiftUIGauge;
+			productReference = 1572545727F8780400E15761 /* SwiftUIGauge.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		1572545A27F8780400E15761 /* SwiftUIGauge WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1572548227F8780500E15761 /* Build configuration list for PBXNativeTarget "SwiftUIGauge WatchKit App" */;
+			buildPhases = (
+				1572545927F8780400E15761 /* Resources */,
+				1572548127F8780500E15761 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1572546927F8780500E15761 /* PBXTargetDependency */,
+			);
+			name = "SwiftUIGauge WatchKit App";
+			productName = "SwiftUIGauge WatchKit App";
+			productReference = 1572545B27F8780400E15761 /* SwiftUIGauge WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		1572546527F8780500E15761 /* SwiftUIGauge WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1572547E27F8780500E15761 /* Build configuration list for PBXNativeTarget "SwiftUIGauge WatchKit Extension" */;
+			buildPhases = (
+				1572546227F8780500E15761 /* Sources */,
+				1572546327F8780500E15761 /* Frameworks */,
+				1572546427F8780500E15761 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftUIGauge WatchKit Extension";
+			productName = "SwiftUIGauge WatchKit Extension";
+			productReference = 1572546627F8780500E15761 /* SwiftUIGauge WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1572545127F8780400E15761 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					1572545627F8780400E15761 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					1572545A27F8780400E15761 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					1572546527F8780500E15761 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 1572545427F8780400E15761 /* Build configuration list for PBXProject "SwiftUIGauge" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1572545027F8780400E15761;
+			productRefGroup = 1572545827F8780400E15761 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1572545627F8780400E15761 /* SwiftUIGauge */,
+				1572545A27F8780400E15761 /* SwiftUIGauge WatchKit App */,
+				1572546527F8780500E15761 /* SwiftUIGauge WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1572545527F8780400E15761 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1572545927F8780400E15761 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1572546127F8780500E15761 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1572546427F8780500E15761 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1572547927F8780500E15761 /* Preview Assets.xcassets in Resources */,
+				1572547627F8780500E15761 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1572546227F8780500E15761 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1572547027F8780500E15761 /* NotificationController.swift in Sources */,
+				1572546E27F8780500E15761 /* ContentView.swift in Sources */,
+				1572547427F8780500E15761 /* ComplicationController.swift in Sources */,
+				1572546C27F8780500E15761 /* SwiftUIGaugeApp.swift in Sources */,
+				1572547227F8780500E15761 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1572545E27F8780400E15761 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1572545A27F8780400E15761 /* SwiftUIGauge WatchKit App */;
+			targetProxy = 1572545D27F8780400E15761 /* PBXContainerItemProxy */;
+		};
+		1572546927F8780500E15761 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1572546527F8780500E15761 /* SwiftUIGauge WatchKit Extension */;
+			targetProxy = 1572546827F8780500E15761 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1572547C27F8780500E15761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1572547D27F8780500E15761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1572547F27F8780500E15761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIGauge WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUIGauge WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SwiftUIGauge WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zixiang.SwiftUIGauge.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		1572548027F8780500E15761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIGauge WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUIGauge WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SwiftUIGauge WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zixiang.SwiftUIGauge.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		1572548327F8780500E15761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = SwiftUIGauge_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "SwiftUIGauge WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zixiang.SwiftUIGauge.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		1572548427F8780500E15761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = SwiftUIGauge_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "SwiftUIGauge WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zixiang.SwiftUIGauge.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		1572548727F8780500E15761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zixiang.SwiftUIGauge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1572548827F8780500E15761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zixiang.SwiftUIGauge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1572545427F8780400E15761 /* Build configuration list for PBXProject "SwiftUIGauge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1572547C27F8780500E15761 /* Debug */,
+				1572547D27F8780500E15761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1572547E27F8780500E15761 /* Build configuration list for PBXNativeTarget "SwiftUIGauge WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1572547F27F8780500E15761 /* Debug */,
+				1572548027F8780500E15761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1572548227F8780500E15761 /* Build configuration list for PBXNativeTarget "SwiftUIGauge WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1572548327F8780500E15761 /* Debug */,
+				1572548427F8780500E15761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1572548627F8780500E15761 /* Build configuration list for PBXNativeTarget "SwiftUIGauge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1572548727F8780500E15761 /* Debug */,
+				1572548827F8780500E15761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1572545127F8780400E15761 /* Project object */;
+}
